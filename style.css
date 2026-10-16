@@ -19,7 +19,7 @@ body{
  }
 
    header p{
-      color: rgb(151, 124, 3);
+      color: rgb(133, 114, 33);
  }
 
    main{
@@ -38,4 +38,49 @@ body{
     box-shadow: 0 5px 100px rgb(236, 227, 103);
     gap:15px ;
     transition:transform 0.3 ease, box-shadow 0.3 ease ;
+  }
+
+  .top-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20 rgb(238, 219, 113);
+  }
+
+  .top-item .posicao{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(252, 206, 120);
+    width: 40px;
+  }
+  
+  .top-item img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+  }
+
+  .top-item .info{
+    flex: 1;
+  }
+  .top-item .info h2{
+    margin: 0 0 10px 0;
+    font-size: 14px;
+  }
+
+  .top-item .info p{
+    margin: 0 0 10px 0;
+    color: rgb(219, 186, 40);
+    font-size: 14px;
+  }
+  .botao-site {
+    display: inline-block;
+    background-color: rgb(63, 2, 143);
+    color: rgb(201, 171, 0);
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
   }
